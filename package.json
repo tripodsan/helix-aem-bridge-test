@@ -1,0 +1,16 @@
+{
+  "name": "aem-bridge",
+  "version": "1.0.0",
+  "description": "AEM Sling Model Rendering Test",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "./node_modules/.bin/hlx up"
+  },
+  "author": "",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "@adobe/helix-cli": "^2.0.0",
+    "@adobe/htlengine": "^2.1.7"
+  }
+}
