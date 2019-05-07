@@ -1,6 +1,7 @@
+<sly data-sly-use.list="${'src/model.js' @ resource = payload }"/>
 <ul
-    data-sly-list.item="${payload.list.listItems}"
+    data-sly-list.item="${list.listItems}"
     data-sly-use.itemTemplate="src/item.htl"
     class="cmp-list">
-    <li class="cmp-list__item" data-sly-call="${itemTemplate.item @ list = payload.list, item = item}"></li>
+    <li class="cmp-list__item" data-sly-call="${itemTemplate.item @ list = list, item = item}"></li>
 </ul>
